@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.SfRangeSlider.XForms.UWP</name>
+    </assembly>
+    <members>
+        <member name="T:Syncfusion.SfRangeSlider.XForms.UWP.ItemsMapping">
+            <summary>
+            The range slider ItemsMapping class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfRangeSlider.XForms.UWP.ItemsMapping.#ctor">
+            <summary>
+            The range slider ItemsMapping class constructor.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfRangeSlider.XForms.UWP.ItemsMapping.items">
+            <summary>
+            The range slider.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfRangeSlider.XForms.UWP.ItemsMapping.GetNativeItem(Syncfusion.SfRangeSlider.XForms.Items)">
+            <summary>
+            The range slider GetNativeItem native object.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfRangeSlider.XForms.UWP.ItemsMapping.OnItemsPropertiesChanged(System.String,Syncfusion.SfRangeSlider.XForms.Items,Syncfusion.UI.Xaml.Controls.Input.Items)">
+            <summary>
+            The range slider OnItemsPropertiesChanged event.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfRangeSlider.XForms.UWP.SfRangeSliderMapping">
+            <summary>
+            The range slider SfRangeSliderMapping class .
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfRangeSlider.XForms.UWP.SfRangeSliderMapping.rangeSlider">
+            <summary>
+            The range slider.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfRangeSlider.XForms.UWP.SfRangeSliderMapping.OnSfRangeSliderPropertiesChanged(System.String,Syncfusion.SfRangeSlider.XForms.SfRangeSlider,Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider)">
+            <summary>
+            Raises the sf range slider properties changed event.
+            </summary>
+            <param name="propertyName">Property name.</param>
+            <param name="formsRangeSlider">Forms range slider.</param>
+            <param name="nativeRangeSlider">Native range slider.</param>
+        </member>
+        <member name="M:Syncfusion.SfRangeSlider.XForms.UWP.SfRangeSliderMapping.SetInternalProperty(Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider,System.String,System.Object)">
+            <summary>
+            Set internal value to native
+            </summary>
+            <param name="nativeAutoComplete"></param>
+            <param name="propertyName"></param>
+            <param name="value"></param>
+        </member>
+        <member name="T:Syncfusion.SfRangeSlider.XForms.UWP.SfRangeSliderRenderer">
+            <summary>
+            Sf range slider renderer.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfRangeSlider.XForms.UWP.SfRangeSliderRenderer.rangeSlider">
+            <summary>
+            The range slider.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfRangeSlider.XForms.UWP.SfRangeSliderRenderer.nativeRangeSlider">
+            <summary>
+            The native range slider.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfRangeSlider.XForms.UWP.SfRangeSliderRenderer.SfrangeSliderMapping">
+            <summary>
+            The sfrange slider mapping.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfRangeSlider.XForms.UWP.SfRangeSliderRenderer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="!:Syncfusion.SfRangeSlider.XForms.WinPhone.SfRangeSliderRenderer"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfRangeSlider.XForms.UWP.SfRangeSliderRenderer.OnElementChanged(Xamarin.Forms.Platform.UWP.ElementChangedEventArgs{Syncfusion.SfRangeSlider.XForms.SfRangeSlider})">
+            <summary>
+            Raises the element changed event.
+            </summary>
+            <param name="e">E.</param>
+        </member>
+        <member name="M:Syncfusion.SfRangeSlider.XForms.UWP.SfRangeSliderRenderer.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Raises the element property changed event.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="e">E.</param>
+        </member>
+        <member name="M:Syncfusion.SfRangeSlider.XForms.UWP.SfRangeSliderRenderer.TriggerInternalMethod(System.Type,System.Object,System.String,System.Object[])">
+            <summary>
+            Sf range slider renderer TriggerInternalMethod object.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfRangeSlider.XForms.UWP.SfRangeSliderRenderer.GetPropertiesChanged(System.Type,System.Object)">
+            <summary>
+            Gets the properties changed.
+            </summary>
+            <returns>The properties changed.</returns>
+            <param name="type">Type.</param>
+            <param name="obj">Object.</param>
+        </member>
+        <member name="M:Syncfusion.SfRangeSlider.XForms.UWP.SfRangeSliderRenderer.GetWindowsColor(Xamarin.Forms.Color)">
+            <summary>
+            Sf range slider GetWindowsColor.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfRangeSlider.XForms.UWP.SfRangeSliderRenderer.Init">
+            <summary>
+            Sf range slider Initialise renderer.
+            </summary>
+        </member>
+    </members>
+</doc>
